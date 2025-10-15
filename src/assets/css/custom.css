@@ -1,0 +1,273 @@
+/* Header  */
+
+.main-landing-page {
+  margin: 0 auto;
+  gap: 5rem;
+  margin-block-end: 0px;
+}
+
+nde-logo.grid-item {
+  display: none;
+}
+
+.brand img {
+  max-width: 252px;
+  height: auto;
+  margin: 0;
+  padding-right: 2em;
+  border-right: 1px solid #e5e5e5;
+  float: left;
+}
+.logo-column {
+  flex: 0 0 auto; /* largeur = largeur de l'image */
+}
+
+.logo-column img {
+  max-height: 50px;
+  height: auto;
+}
+
+ .header {
+  display: flex;
+  justify-content: flex-start;
+  padding-block-start: 20px;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid red;
+  padding-block-end: 20px;
+  list-style: none;
+  padding-left:1em;
+}
+
+.header-first-link {
+  color: #000;
+  font-weight: 700;
+  max-width: 310px;
+  line-height: 1.3;
+  margin: 0;
+  float: left;
+}
+
+ .links-column {
+  flex: 1;        
+  display: flex;
+  flex-direction: column;  
+  align-items: flex-start;
+  margin-left: 10px;
+  gap: 5px;
+} 
+
+
+.header-links .first-link {
+  margin-left: 0; /* juste pour être sûr */
+}
+
+/* Style des liens */
+.header-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+/* Effet au survol */
+.header-links a:hover {
+  text-decoration: underline;
+  color: #069;
+}
+
+.header-links.right-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+/* Topbar */
+a.main-manu-label.text-uppercase.display-flex.basic-button.mdc-button.mat-mdc-button.selected-page.mat-unthemed.mat-mdc-button-base.ng-star-inserted {
+  text-decoration: none;
+}
+
+span.mdc-button__label {
+  text-transform: none;
+}
+
+/* 
+header.top-bar.flex-column.header {
+  border-bottom: 4px solid red;
+}
+ */
+
+/* Search Container */
+.top-bar-background-image.custom-search-bar-container.ng-star-inserted {
+  background-image: url(https://nb-helveticat-psb.primo.exlibrisgroup.com/nde/custom/41SNL_51_INST-helveticat_nde/assets/images/search_background1.png) !important;
+  background-repeat: no-repeat;
+  /* background-position: calc(50% + +10px) -380px; */
+	border-top: 2px solid white;
+}
+
+/* Main menu */
+
+span.mdc-button__label {
+  text-decoration: none; /* Pas de soulignement par défaut */
+  text-transform: none;
+/*   color: #333; /* Couleur de texte de base */
+  transition: all 0.3s ease; /* Transition fluide pour les changements d'état */
+}
+
+/* Style du lien lorsqu'on passe la souris dessus */
+span.mdc-button__label:hover {
+  text-decoration: underline; /* Souligner au survol */
+  text-transform: none;
+  color: #069; /* Change la couleur du texte au survol */
+  background-color: #f0f0f0; /* Ajoute un fond léger au survol */
+  transform: scale(1.05); /* Agrandit légèrement le lien au survol */
+}
+
+/* Main Body */
+
+.main-landing-page .welcome-announcements-container .welcome  {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .home-page-container[_ngcontent-ng-c742759394].ng-star-inserted {
+    margin-top: 1rem;
+  }
+}
+
+/* Style initial du lien pour SNL link */
+#SNL_link {
+  text-decoration: none; /* Pas de soulignement par défaut */
+  color: #069; /* Couleur de texte de base */
+  background-color: white; /* Fond blanc */
+  padding-block: 0; /* Retire l'espacement vertical par défaut (haut et bas) */
+  padding-inline: 0; /* Retire l'espacement horizontal par défaut (gauche et droite) */
+  /* font-size: 16px; /* Taille de police */
+  /* font-family: Arial, sans-serif; /* Choix de police */
+  /* font-weight: 600; /* Poids de la police */
+  /* border-radius: 4px; /* Bords arrondis */ 
+  transition: all 0.3s ease; /* Transition fluide pour les changements d'état */
+}
+
+
+/* Style du lien lorsqu'on passe la souris dessus */
+#SNL_link:hover {
+  text-decoration: underline; /* Souligner au survol */
+  color: #069; /* Change la couleur du texte au survol */
+  /* background-color: #f0f0f0; /* Ajoute un fond léger au survol */
+  /* transform: scale(1.05); /* Agrandit légèrement le lien au survol */
+}
+
+#SNL_link_1 {
+  text-decoration: none; /* Pas de soulignement par défaut */
+  color: #069; /* Couleur de texte de base */
+  /* background-color: white; /* Fond blanc */ 
+  padding-block: 0; /* Retire l'espacement vertical par défaut (haut et bas) */
+  padding-inline: 0; /* Retire l'espacement horizontal par défaut (gauche et droite) */
+  /* font-size: 16px; /* Taille de police */ 
+  /* font-family: Arial, sans-serif; /* Choix de police */ 
+  /* font-weight: 600; /* Poids de la police */ 
+  /* border-radius: 4px; /* Bords arrondis */ 
+  transition: all 0.3s ease; /* Transition fluide pour les changements d'état */
+}
+
+
+/* Style du lien lorsqu'on passe la souris dessus */
+#SNL_link_1:hover {
+  text-decoration: underline; /* Souligner au survol */
+  color: #069; /* Change la couleur du texte au survol */
+  /* background-color: #f0f0f0; /* Ajoute un fond léger au survol */
+  /* transform: scale(1.05); /* Agrandit légèrement le lien au survol */
+}
+
+/* Link menu */
+
+@media (max-width: 768px) {
+  .menu-container.width-100 {
+  display: none;
+  }
+}
+
+/* Style initial du lien sous listitem" */
+#Opening_hours_link, #FAQ_link, #Ask_a_librarian_link, #Search_tips_link, #Study_room_link {
+  text-decoration: none; /* Pas de soulignement par défaut */
+  color: #333; /* Couleur de texte de base */
+  /* font-size: 16px; /* Taille de police */ */
+  /* font-family: Arial, sans-serif; /* Choix de police */ */
+  /* font-weight: 600; /* Poids de la police */ */
+  padding: 5px 10px; /* Ajout d'un peu d'espace autour du lien */
+  border-radius: 4px; /* Bords arrondis */
+  transition: all 0.3s ease; /* Transition fluide pour les changements d'état */
+}
+
+/* Style du lien lorsqu'on passe la souris dessus */
+#Opening_hours_link:hover, #FAQ_link:hover, #Ask_a_librarian_link:hover, #Search_tips_link:hover, #Study_room_link:hover {
+  text-decoration: underline; /* Souligner au survol */
+  color: #069; /* Change la couleur du texte au survol */
+  background-color: #f0f0f0; /* Ajoute un fond léger au survol */
+  transform: scale(1.05); /* Agrandit légèrement le lien au survol */
+}
+
+/* Style pour un focus (utile pour l'accessibilité) */
+#Opening_hours_link:focus, #FAQ_link:focus, #Ask_a_librarian_link:focus, #Search_tips_link:focus, #Study_room_link:focus {
+  outline: 2px solid #069; /* Ajoute une bordure bleue autour du lien lors du focus */
+  outline-offset: 2px; /* Décale légèrement la bordure */
+}
+
+/* Optionnel : Style pour les liens visités */
+#Opening_hours_link:visited, #FAQ_link:visited, #Ask_a_librarian_link:visited, #Search_tips_link:visited, #Study_room_link:visited {
+  color: #6c757d; /* Changer la couleur une fois que le lien a été visité */
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0; /* Ajoute de l'espace vertical au footer */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-start;  /* Aligne les éléments à gauche pour commencer */
+  align-items: center; /* Aligne les éléments verticalement */
+  width: 100%; /* Prend toute la largeur du footer */
+}
+
+.footer-links li {
+  margin-left: 15px; /* Ajoute de l'espace entre les éléments de la liste */
+}
+
+/* Pousse le premier élément à gauche */
+.footer-links .first-link {
+  margin-right: auto;
+}
+
+/* Style pour les liens */
+.footer-links a {
+  text-decoration: none;
+  color: #333; /* Couleur de texte */
+  font-size: 14px;
+}
+
+/* Souligner au survol */
+.footer-links a:hover {
+  text-decoration: underline; /* Souligner lors du survol */
+  color: #069; /* Optionnel : changer la couleur au survol */
+}
+
+/* hidden features */
+
+div#brief\.results\.tabs\.browseshelf {
+  display: none;
+}
+
+/* div#nde\.request\.title {
+  display: none;
+} */

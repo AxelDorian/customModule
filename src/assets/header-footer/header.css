@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Topbar fédérale */
+.nav-confederation {
+  background: #f2f2f2;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+.nav-confederation ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nav-confederation a {
+  text-decoration: none;
+  color: #003366;
+  font-size: 14px;
+}
+.nav-confederation li.active a {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Sélecteur de langues */
+.nav-lang {
+  background: #fff;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+.nav-lang ul {
+  display: flex;
+  gap: 15px;
+}
+.nav-lang a, .nav-lang span {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+}
+.nav-lang li.active span {
+  font-weight: bold;
+}
